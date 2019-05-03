@@ -28,7 +28,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Init
 PRODUCT_PACKAGES += \
-    init.target.rc
+    init.target.rc \
+    fstab.mt6765
 
 # Input
 PRODUCT_COPY_FILES += \
